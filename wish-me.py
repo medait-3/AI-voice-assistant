@@ -37,5 +37,5 @@ def wishme():
     else:
         speak("good night")
 
-    speak("hoow can i help you")
+    speak("how can i help you")
 wishme()

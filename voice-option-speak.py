@@ -3,7 +3,7 @@ import datetime
 
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
-engine.setProperty('voice',voices[4].id)   #her change num betw 0and 5
+engine.setProperty('voice',voices[0].id)   #her change num betw 0and 5
 newVoiceRate = 155  #speed of speak
 engine.setProperty('rate',newVoiceRate)
 def speak(audio):
