@@ -10,11 +10,11 @@ def speak(audio):
 
 
 def commande():
-    r = sr.Recognizer()
+    r  = sr.Recognizer()
     with sr.Microphone() as source:
         print("listing...")
-        r.pause_threshold=1
-        audio=r.listen(source)
+        r.pause_threshold = 1
+        audio = r.listen(source)
 
     try:
         print("reconi...")
@@ -24,7 +24,7 @@ def commande():
         print(e)
         speak("say again please ... ")
 
-        return "none"
+        return "Nne"
 
     return query
 
